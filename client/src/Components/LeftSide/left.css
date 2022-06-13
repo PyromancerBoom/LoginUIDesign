@@ -1,0 +1,22 @@
+.bodyL{
+    position: relative;
+}
+
+.bodyL .title{
+    color: aliceblue;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.images{
+    left: 50%;
+    top: 50%;
+    transform: translate(25%, 15%);
+}
+
+.subtitle{
+    font-style: italic;
+    font-weight: 100;
+}

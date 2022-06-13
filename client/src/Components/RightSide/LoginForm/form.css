@@ -1,0 +1,118 @@
+.form{
+    
+    /*margin-right: rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem; */
+    width: 270px;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+h2{
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 15%;
+    margin-bottom: 20px;
+
+}
+
+.signup-option{
+    margin-top: 1.2rem;
+}
+
+.checkbox{
+    font-size: 13px;
+    align-items: left;
+    color: #636363;
+}
+
+.checkbox input{
+    width: 11px;
+    height: 11px;
+}
+
+.forgot{
+    align-items: right;
+    justify-content: end;
+    margin-right: 37px;
+    /*float: right;*/
+}
+
+.login{
+    margin-bottom: 10px;
+}
+
+/* LOGIN BUTTON CSS*/
+.btn {
+    background-color: #2289ca;
+    border: none;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn:hover{
+   background:aliceblue;
+   box-shadow:0px 1px 8px 5px #97B1BF;
+   color:#000;
+}
+
+/*Animation on click*/
+.btn:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.google {
+    border: solid var(--google-color) 1px;
+    color: var(--google-color);
+    font-size: 12px;
+  }
+  
+.google:hover {
+    background-color: var(--google-color);
+    color: white;
+  }
+
+.social {
+    background-color: #fff;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition-duration: 200ms;
+    box-shadow: var(--box-shadow);
+    text-shadow: var(--box-shadow);
+  }

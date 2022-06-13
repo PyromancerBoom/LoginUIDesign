@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --theme: #c90c54;
+  --red-magenta: #ff0062;
+  --magenta: #FF00FF;
+  --main-color: #fff;
+  --second-color: #347deb;
+  --box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  --facebook-color: rgb(60, 90, 154);
+  --google-color: rgb(220, 74, 61);
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url('./Components/bg/bg-7.jpg');
+  background-size: cover;
+  height: 50vh;
+}
+
+a{
+  color: blue;
+  font-size: 13px;
+}
+
+a:hover{
+  color: var(--red-magenta);
+}
+
+h2{
+  font-size: 25px;
+}
+
+p {
+  font-size: 13px;
+}
+
+
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
