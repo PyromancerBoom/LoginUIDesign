@@ -1,5 +1,5 @@
 import React from 'react'
-import imagegif from '../VR.gif'
+import imagegif from './../../../Logo/LogoWhite.png'
 import './carousel.css'
 
 const Carousel = () => {
