@@ -5,7 +5,7 @@ import './carousel.css'
 const Carousel = () => {
   return (
     <div className='carousel'>
-        <img src={imagegif} alt='gif' />
+        <img src={imagegif} alt='something' />
     </div>
   )
 }

@@ -32,7 +32,7 @@ body {
   font-weight: 500;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-  url('./Components/bg/bg-7.jpg');
+  url('./Components/bg/bg-1.jpg');
   background-size: cover;
   height: 50vh;
 }
