@@ -1,5 +1,5 @@
 Login frontend sample
 
-[](Animation.gif)
+![](Animation.gif)
 
 This is open for contributions! :D
