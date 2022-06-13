@@ -1,3 +1,3 @@
-### Login form sample for Ikarus3D
+### Login form sample
 
 Run app.js
